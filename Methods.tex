@@ -1,0 +1,211 @@
+\section{Methods}
+
+Subjects.
+Male mice (PND 30-60) served as subjects. The mice were single housed in a colony room with a reverse 12:12 hr light cycle (dark 7 AM to 7 PM). Two strains of mice were trained and tested: C57BL/6 (C57); and an outbred strain on mixed background (MEK) with deficiencies in the MEK2 gene, implicated in ERK/MAP kinase signaling cascade. The MEK2 deficient mice were acquired for initial experiment piloting, and the mutation has no known behavioral or health effects, nor were any observed, presumably due to compensation by the closely related kinase MEK1 (Belanger et al, 2003). Both strains of mice were acquired from an in-house breeding program. All mice were water restricted, beginning seven days prior to the experiment. During water restriction, each mouse received 1 mL of water in their home cage at 4:30 pm each day, in addition to any liquid they earned in the experimental session. Experimental sessions occurred between 9 AM and 4 PM, seven days a week.
+
+Apparatus.
+Experiments were conducted in a “Slotnick style” 4 channel pinch-valve olfactometer (described in Slotnick and Restrepo, 2005) and operant chamber purchased from Knosys Systems. In brief, the olfactometer contained a two-phase odorant delivery system with a pinch valve for each odorant and a shared final valve. The final valve was normally relaxed, while the odorant valves closed. Prior to expected delivery of an odorant, the final valve closed and the odorant valve opened, allowing odorant to build up in the system. The odorant was then delivered into the [odorant tube] by opening the final valve. All odorants either were [maintained in liquid phase?], diluted in mineral oil, described in the Experiments section below.
+The operant chamber was an acrylic box 11 cm long, 14 cm wide, and 12.5 cm tall. A port (3.5 cm in diameter) was cut into one wall to give access to a metal liquid delivery spout and [odor tube?] Head entries to the port were measured by infrared beam breaks and licks to the liquid delivery tube were measured by the closure of a circuit between a ground plate on the chamber floor and the liquid delivery spout. A set of stereo computer speakers in the cabinet permitted playing sounds the experiment.  Experimental events were controlled and recorded by software custom written in Python 2.7.
+The reinforcer was approximately 0.006 mL of a chocolate milk (Shamrock Farms; Phoenix, AZ) and water mixture (1/3rd milk by volume) combined with the sounding of a brief (0.3 s) 9 kHz buzzing tone at 65 dB. Subjects were given approximately 0.5 mL of the milk mixture 24 hours prior to the first experimental session to familiarize them the substance.  
+
+Procedure
+The odorant discrimination training and generalization testing protocol was a modified version of the Go/No Go task used by Slotnick and colleagues (Restrepo and Slotnick, 2005). Each experiment consisted of four phases: Pretraining, Odorant discrimination,, Odorant discrimination (partial reinforcement),  and Generalization Testing. During pretraining, subjects were trained to lick the liquid delivery tube and keep their head in the [odor tube] for several seconds. During odorant discrimination, subjects were trained to lick the reinforcer spout for chocolate milk when one odorant (the S+) was presented, but not when mineral oil (the S-) was presented, and correct responding to all S+ trials were reinforced. Because generalization trials with the novel stimuli must be conducted in the absence of reinforcement to prevent training the animal to respond to the novel stimuli, subjects were trained persist in responding during low rates of reinforcement in Odorant discrimination (partial reinforcement). In that phase, the frequency of reinforcement on S+ trials was gradually reduced from 100% to 20%. During generalization testing, the subjects’ propensity to respond to three novel, unreinforced odorants was examined.
+
+Pretraining
+During pretraining, subjects were trained to keep their head in the [odor port] for longer and longer intervals before earning the reinforcer, though no odorants were delivered. Pretraining trials consisted of three components: an inter trial interval (ITI), pre-valve hold interval (PVHI), and a head-in hold interval (HIHI). The start of each trial was contingent upon the elapse of the ITI and absence of the head in the odor port. At the start of the trial, the final valve turned on and a head entry was required to be maintained for the entirety PVHI. Withdrawal of the head from the odor port before the end of the PVHI reset the interval. Elapse of the PVHI began the HIHI. Withdrawal of a the head from the odor port during the HIHI terminated the trial, while maintaining a head entry for the entirety of the HIHI resulted in the sounding of brief (0.3 s) 9 kHz tone at 65 dB, which signaled that licking the liquid delivery tube would result in reinforcement.
+Trials were divided into blocks, and the ITI, PVHI and HIHI were gradually increased for each block over the course of the session. Table X describes parameters of each block. The first block contained 30 trials, and advancement to the second block was contingent upon simply completing all trials. The remainder of blocks contained a minimum of 5 trials each, and advancement from each block to the next was contingent upon earning reinforcement in a 3 consecutive trials and completion of at least 5 trials. The final valve turned off at the end of the trial. Pretraining consisted of 17 blocks of trials.
+Table X.
+Block
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+ITI (s)
+0.1
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PVHI (s)
+0
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+HIHI (s)
+0
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Subjects remained in pretraining for a minimum of two sessions.  If a subject did not complete the first 17 blocks of trials in a session, they began the next session 4 blocks behind the block they previously finished on (e.g., if they ended on block 11, they began on block 7).
+Odorant discrimination training
+Discrimination training consisted of a Go/No Go task in which subjects were required to lick in the presence of one odor, the S+, and not in the presence of another odor, the S-.  Each trials began after an ITI which was programmed to end when, after 5 s, the subject’s head was not in the [odor port]. At the beginning of the ITI, the odorant valve and final valve turned on, allowing odorant to fill the tubes. After the ITI, a head entry of at least 0.5 s began the trial and released the final valve allowing odorant into the [odorant port]. During S+ trials, subjects were required to lick the liquid delivery tube over a 2 s interval divided into 0.2 s bins. If licking occurred in 60% of those bins, responding was immediately reinforced and the trial ended. Withdrawal from the port before the end of 2 s resulted in trial termination. On S- trials, no reinforcement was delivered for licking. Each ITI only began after a subject withdrew from the head entry port. An S+ trial was counted as correct if a subject completed the lick requirement. An S- trial was counted correct if the subject withdrew before completing the lick requirement. Only S+ trials were reinforced.
+During the first odorant discrimination training session, the frequency of S+ to S- was gradually reduced until the ratio of S+ to S- trials was equal. On the first block, all ten trials were S+. If a subject responded on at least 70% of trials, they were advanced to the next block where 90% of trials were S+, otherwise they repeated the block. If subject’s met the same criterion on the 90% block, they were then advanced to the next block where 80% of trials were S+. In this manner, the frequency of S+ trials was reduced from 100% to 50%.  Once a subject met the criterion at 50% reinforcement, they began the normal odorant discrimination sessions.
+Normal odorant discrimination sessions began with a “warm up” block of 10 trials in which all trials were S+ in order to establish behavioral momentum (Nevin, 1998, Shahan 2014).  The remainder of the session consisted of 9 blocks of 10 S+ trials and 10 S- trials, ordered pseudo randomly so that no more than 3 trials of the same type (S+ or S-) occurred consecutively within a block. Once a subject responded with at least 80% correct for two consecutive sessions, he began odorant discrimination (partial reinforcement).
+
+Odorant discrimination (partial reinforcement).
+This phase was identical to odorant discrimination, except the probability of reinforcement on S+ trials after the “warmup” block was gradually reduced over four sessions. During the first session, 80% of S+ trials resulted in reinforcement for correct responding. The following three sessions reduced the frequency of reinforcement on S+ trials to 60%, 40% and then 20%. The next session after 20% reinforcement was Generalization Testing.
+Generalization testing.
+            During generalization testing, the propensity of a subject to respond to each of the three generalization odorants (G1, G2, and G3) relative to the S+ was tested. Generalization testing consisted of “warm up” block, as per odorant discrimination, and four generalization blocks. Generalization blocks consisted of eight trials – two trials with each generalization odorant (G1, G2, and G3), and two trials with the S+. Responding to the generalization odorants was never reinforced. However, to prevent response extinction, responding on one of the two S+ trials was reinforced, while the other was not. In generalization blocks, trial order was determined pseudorandomly, in that all four types of trials (S+,G1,G2 and G3) must have occurred before a second trial of the same type occurred.
+
+Experiments types.
+Five different experiments were conducted across both strains of mice. Due to the availability of the mice, MEK2 were only trained and tested with experiments E1-E3, while C57 was trained and tested with experiments E1-E5.  Table 1 describes the odorants used in each experiment.
+
+E1. Single-Linear. Each stimulus (S+ and G1, G2, and G3) was a simple mixture of a single [2-n alcohol] diluted to 0.1% concentration by volume in mineral oil (Sigma-Aldrich, M3516-1L). This experiment tested generalization to novel stimuli which differed from S+ by their carbon chain length.
+
+E2. Double-Linear. Each stimulus was a mixture of two odorants [2-n alcohols], where each odorant in the mixture only differed from each other by a single carbon chain. Each odorant was diluted to 0.05% concentration by volume in mineral oil. For example, the S+ for MEK2 was a mixture of 0.05% 2-Heptanol, 0.05% 2-Octanol, and 99.9% mineral oil.  This experiment tested generalization across odorants that differed by…. [linear series]
+
+E3. Double 1-Shared. Each stimulus was a mixture of 2 odorants, as diluted as in E2. However, each of the generalization stimuli shared with the S+ one component (2-Heptanol) and differed from the S+ by one component. This tested…
+
+E4. Double 1-Distant. Each stimulus was a mixture of 2 odorants, diluted as in E2. However, the generalization stimuli shared no overlapping components with the S+, but had identical or similar average carbon chain lengths. For example, the S+ was a mixture 2-heptanol and 2-nonanol, with an average chain length of 8; G1 was a mixture of 2-Hexanol and 2-decanol, also with an average carbon chain length of 8.
+
+E5. Vapor Pressure Control. When the dilution by volume remains constant across the single 2-n alcohols within our series, the partial vapor pressure decreases approximately 3.3 fold (+/- 0.5). To ensure that the results could in E1-E4 could not be explained by simple differences in partial vapor pressures, E5 trained 2-Heptanol at 1.0% dilution as the S+, and tested 2-Heptanol at 0.01%, 0.1% and 5.0% as the generalization stimuli.
+ 
+Table 2. Stimuli
+Experiment
+Strain
+S+
+G1
+G1
+G3
+Single
+C57
+ 
+ 
+ 
+ 
+ 
+MEK
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Double
+C57
+ 
+ 
+ 
+ 
+ 
+MEK
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1-Shared
+C57
+ 
+ 
+ 
+ 
+ 
+MEK
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1-Away
+C57
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Vapor Pressure Control
+C57
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
