@@ -12,31 +12,3 @@ In the third experiment (``1-Shared''), the $S+$ and the test stimuli were binar
 In the fourth experiment (``1-Distant''), the test stimuli had no overlap with the $S+$, but each component was either 1 carbon shorter or 1 carbon longer than a corresponding component in the $S+$.  Only a low level of generalization was observed (Fig. \ref{fig:something}d, $XXXX index = XXXX \pm XXXX$), similar to experiment 1.  
 
 In the fifth experiment (``Vapor Pressure Control'') the test stimuli were identical to the $S+$, except they all varied in concentration.  Since alcohols of lower molecular weight tend to have higher vapor pressures (approximately 3-fold decrease with each additional carbon), we wanted to ensure that generalization was not occurring to vapor pressure rather than molecular identity.  We used the same molecule for the $S+$ and all test stimuli, and varied only concentration.  We found that response rate was linear in concentration, with no deviation reflecting a specific preference for the concentration of the $S+$.  This indicated that vapor pressure was not a variable to which the mice were specifically attuned.  
-
-\subsection{Modeling}
-
-The first three experiments were replicated in two strains of mice (\ref{methods}), and we varied the varied the identity of the S+ across replications.  Observing similar results across strains and $S+$ identities (Figure \ref{fig:something}), we pooled the data such that one component of the $S+$ was designated as the reference component, and all other components in the $S+$ or the test stimuli were labeled according to the difference in carbon chain length among their components relative to the reference (Figure \ref{fig:else}).  For example, for a $S+$ consisting of 2-heptanol and 2-octanol, we designated 2-heptanol as the reference, $0$, and 2-octanol as $+1$.  Together the $S+$ could be labeled $(0,+1)$.  A test stimulus of 2-octanol and 2-nonanol is then labeled $(+1,+2)$.  This allowed us to present data from using different $S+$ identities together on the same plot (Figure \ref{fig:else}).  
-
-To account for the shape of the generalization gradients in each experiment, we developed a series of models that could be uniformly applied to each data set in order to account for  the similarity and overlap of the component odorant mixtures  To capture the data, a candidate model needs to reflect that component similarity is predictive of generalization, and that component overlap may be a special case of perfect similarity.  
-
-We considered several possible candidate models:
-
-Model 1 - Scalar. In this model,, each mixture is represented by a scalar function of the carbon chain lengths of the mixture’s components.  Then some function of those scalars predicts generalization across the mixtures.  In this model different mixtures are treated identically, if they map to the same scalar.  For example, a mixture of 2-heptanol and 2-nonanol might be treated identically to solution of only 2-octanol (a midpoint in carbon chain length).  [LET’S PUT THE  MATHEMATICAL EQUATIONS IN]
-Pr(Resp|Odorant) =  ? 
-
-Model 2 - All to all.
-At the other extreme, in the most complex model (“All to all”), mixtures are compared by computing a function of each component in the S+ to each component in the test mixture -- for N-component mixtures this means N2 computations (N2 = 4 since these are binary mixtures) -- with functions added to predict generalization.  In this model each component “interacts” with each other component, and any deviation in any combination of components across mixtures is potentially predictive of non-generalization.  
-[STILL NOT SURE HOW THIS WORKS EXACTLY]
-
-Model 3 - Nearest Neighbor.
-This model takes each component of the S+, and compares it only to the “nearest” component in the test mixture, with nearest determined by carbon chain length.  Since there is only one function for each S+ component (a function of the component and its nearest neighbor in the test mixture), there are N computations (N = 2 here).  
-
-Model 4 - Nearest Neighbor with Vapor Pressure correction. 
-[additional description and equation here] 
-Because vapor pressure increases with decreasing carbon chain length, shorter molecules are perceived more intensely under the equal concentrations used here.  Thus we also added a vapor pressure correction, motivated by the exponential form of the published vapor pressure vs carbon chain length relationship, to account for potential differences in salience across mixture components. 
-
-WE NEED TO WRITE HOW THE MODELS WERE FIT. MIN(RSS?)] Each model was fit to the ?mean? data path by minizing the residuam sum of squares.
-
-Model fit. [HERE WE CAN DESCRIBE THE DATA TRANSFORMATION FOR AGGREGATION ACROSS EXPERIMENT, THEN HOW THE MODEL PARAMETERS WERE FIT, AND FIT STATISTICS, RSS, R^2, AIC, ect. THEY CAN EASILY ALL GO IN A SINGLE TABLE]. 
-
-We found that the nearest neighbor model was the best fitting model (Fig X).  Because vapor pressure increases with decreasing carbon chain length, shorter molecules are perceived more intensely under the equal concentrations used here.  Thus we also added a vapor pressure correction, motivated by the exponential form of the published vapor pressure vs carbon chain length relationship, to account for potential differences in salience across mixture components.  This helped account for asymmetries in the observed generalization data, improving model fit.  
