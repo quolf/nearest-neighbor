@@ -5,15 +5,3 @@ The first three experiments were replicated in two strains of mice (\ref{methods
 To account for the shape of the generalization gradients in each experiment, we developed a series of models that could be uniformly applied to each data set in order to account for  the similarity and overlap of the component odorant mixtures  To capture the data, a candidate model needs to reflect that component similarity is predictive of generalization, and that component overlap may be a special case of perfect similarity.  
 
 We considered several possible candidate models (Figure X):
-
-\subsubsection{Model 1 - Scalar}
-In this model, each mixture is represented by a scalar function of the carbon chain lengths of the mixture’s components.  Then some function of those scalars predicts generalization across the mixtures.  In this model different mixtures are treated identically, if they map to the same scalar.  For example, a mixture of 2-heptanol and 2-nonanol might be treated identically to solution of only 2-octanol (a midpoint in carbon chain length).  
-
-\subsubsection{Model 2 - All to all}
-At the other extreme, in the most complex model (``All to all''), mixtures are compared by computing a function of each component in the $S+$ to each component in the test mixture -- for $N$-component mixtures this means $N^2$ computations ($N^2 = 4$ since these are binary mixtures) -- with functions added to predict generalization.  In this model each component ``interacts'' with each other component, and any deviation in any combination of components across mixtures is potentially predictive of non-generalization.  
-[STILL NOT SURE HOW THIS WORKS EXACTLY]
-
-\subsubsection{Model 3 - Nearest Neighbor}
-This model takes each component of the $S+$, and compares it only to the ``nearest'' component in the test mixture, with nearest determined by carbon chain length.  Since there is only one function for each $S+$ component (a function of the component and its nearest neighbor in the test mixture), there are $N$ computations ($N=2$ here).  
-
-We found that the nearest neighbor model was the best fitting model (Fig \ref{fig:else}).  Because vapor pressure increases with decreasing carbon chain length, shorter molecules are perceived more intensely under the equal concentrations used here.  Thus we also added a vapor pressure correction, motivated by the exponential form of the vapor pressure vs carbon chain length relationship, to account for potential differences in salience across mixture components.  This helped account for asymmetries in the observed generalization data, improving model fit.  
