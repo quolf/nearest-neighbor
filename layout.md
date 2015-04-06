@@ -10,3 +10,4 @@ Modeling.tex
 figures/0/cartoon.png
 subsubsection_Model_1_Scalar_label__.tex
 Discussion.tex
+figures/model_fits/model_fits.png
