@@ -10,3 +10,4 @@ Modeling.tex
 figures/0/cartoon.png
 figures/model_fits/model_fits.png
 Discussion.tex
+figures/mse/mse.png
