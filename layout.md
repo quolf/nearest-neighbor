@@ -6,7 +6,7 @@ Methods.tex
 Methods:Models.tex
 Table 1. Odorants.tex
 Results.tex
-figures/basic_gen_plots/download.png
+figures/basic_gen_plots/results.png
 Modeling.tex
 figures/0/Fig.png
 subsubsection_Model_1_Scalar_In__.tex
