@@ -2,9 +2,9 @@ To Do List.tex
 Abstract.tex
 Preamble.tex
 Introduction.tex
-Table 1. Odorants.tex
 Methods.tex
 Methods:Models.tex
+Table 1. Odorants.tex
 Results.tex
 figures/basic_gen_plots/download.png
 Modeling.tex
