@@ -8,6 +8,5 @@ Results.tex
 figures/basic_gen_plots/results.png
 Modeling.tex
 figures/0/cartoon.png
-subsubsection_Model_1_Scalar_label__.tex
-Discussion.tex
 figures/model_fits/model_fits.png
+Discussion.tex
