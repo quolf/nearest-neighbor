@@ -6,9 +6,10 @@ Table 1. Odorants.tex
 Results.tex
 figures/basic_gen_plots/results.png
 Modeling.tex
-subsection_Modeling_label_sec_results_modeling__.tex
 figures/0/cartoon.png
-Discussion.tex
+subsection_Modeling_label_sec_results_modeling__.tex
+figures/model_fits/model_fits.png
 Model fits.tex
 figures/mse/mse.png
+Discussion.tex
 To Do List.tex
