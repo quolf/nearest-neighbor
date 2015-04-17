@@ -1,4 +1,3 @@
-To Do List.tex
 Abstract.tex
 Introduction.tex
 Methods.tex
@@ -10,6 +9,6 @@ Modeling.tex
 subsection_Modeling_label_sec_results_modeling__.tex
 figures/0/cartoon.png
 Model fits.tex
-figures/model_fits/model_fits.png
 Discussion.tex
 figures/mse/mse.png
+To Do List.tex
