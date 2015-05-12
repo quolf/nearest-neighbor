@@ -1,6 +1,6 @@
 \subsection*{Modeling}
 \label{sec:results_modeling}
-To quantitatively account for the generalization observed in each of the five experiments, we considered three potential means for computing the perceptual similarity of mixtues, and fit a model for each.  
-We considered several possible candidate models, differing in how and which components are involved in the computation of similarity (Figure \ref{fig:cartoon}).  
-Each model contained 3 parameters, and differed only in computational complexity; the three parameters corresponded to the baseline response probability ($p0$), and the salience of individual components according to vapor pressure ($\alpha$), the steepness of generalization for components differing in carbon chain length ($\beta$).  
-The computational complexity varied across models.  It was simplest in the scalar model, consisting only of a single comparison of average carbon chain length of mixtures.  It was most complex in the all to all model, consisting of $N^2$ comparison for $N$-component mixtures ($N=2$ here).  It was intermediate in the nearest-neighbor model, consisting of $N$ comparisons.  
+To quantitatively account for the generalization observed in each of the five experiments, we considered three potential means for computing the perceptual similarity of mixtures, and then we fit a model for each.  
+We considered three possible candidate models, which differed in how and which components are involved in the computation of similarity (Figure \ref{fig:cartoon}).  
+Each model contained 3 parameters: the baseline response probability ($p0$), and the salience of individual components according to vapor pressure ($\alpha$), the steepness of generalization for components differing in carbon chain length ($\beta$).  
+The computational complexity varied across models (Fig. \ref{fig:cartoon}).  It was simplest in the scalar model, consisting only of a single comparison of average carbon chain length of mixtures.  It was most complex in the all-to-all model, consisting of $N^2$ comparison for $N$-component mixtures ($N=2$ here).  It was intermediate in the nearest-neighbor model, consisting of $N$ comparisons.  
