@@ -3,6 +3,7 @@ Introduction.tex
 Methods.tex
 Methods:Models.tex
 Table 1. Odorants.tex
+Calculation_of_model_fits_needs__.tex
 Results.tex
 figures/basic_gen_plots/results.png
 Modeling.tex
