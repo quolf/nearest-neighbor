@@ -2,5 +2,6 @@
 \label{sec:results_modeling}
 To quantitatively account for the generalization observed in each of the five experiments, we considered three potential means for computing the perceptual similarity of mixtures, and then we fit a model for each.  
 We considered three possible candidate models, which differed in how and which components are involved in the computation of similarity (Figure \ref{fig:cartoon}).  
-Each model contained 3 parameters: the baseline response probability ($p0$), and the salience of individual components according to vapor pressure ($\alpha$), the steepness of generalization for components differing in carbon chain length ($\beta$).  
-The computational complexity varied across models (Figure \ref{fig:cartoon}).  It was simplest in the scalar model, consisting only of a single comparison of average carbon chain length of mixtures.  It was most complex in the all-to-all model, consisting of $N^2$ comparison for $N$-component mixtures ($N=2$ here).  The nearest-neighbor model was intermediate in complexity because it consisted of $N$ comparisons.  
+Each model contained 3 parameters: the baseline response probability ($p_0$), and the salience of individual components according to vapor pressure ($\alpha$), the steepness of generalization for components differing in carbon chain length ($\beta$).  
+The computational complexity varied across models (Figure \ref{fig:cartoon}).  It was simplest in the ``mean'' model, consisting only of a single comparison of average carbon chain length of mixtures.  
+It was most complex in the ``all-to-all'' model, consisting of $N^2$ comparison for $N$-component mixtures ($N=2$ here).  The ``nearest-neighbor'' model was intermediate in complexity because it consisted of $N$ comparisons.  
