@@ -8,7 +8,6 @@ subsubsection_Odorant_discrimination_partial_reinforcement__.tex
 subsubsection_Generalization_testing_label_sec__.tex
 subsubsection_Experiment_types_label_sec__.tex
 Methods:Models.tex
-Table 1. Odorants.tex
 figures/Untitled2/Untitled2.png
 Results.tex
 figures/basic_gen_plots/results.png
