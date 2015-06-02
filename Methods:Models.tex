@@ -6,6 +6,20 @@ We considered 3 classes of models, varying in computational complexity.
 \begin{itemize}
 \item \textit{Scalar}: Each stimulus was represented by the mean carbon chain length of its components.  The probability of response ($p_r$) was a function of the difference between the mean carbon chain length of the $S+$ and that of the test stimulus.  
 \item \textit{All-to-All}: Each stimulus was represented by an array of the carbon chain lengths of the components, e.g. an array of length 2 for a binary mixture. $p_r$ was a function of the difference between each element of the $S+$ array and each element of the test stimulus array, i.e. the difference in carbon chain lengths between each $S+$ component and each test stimulus component.  
-\item \texit{Nearest Neighbor}: Each stimulus was represented as in \textit{All-to-All), but $p_r$ was a function only of the difference between each element of the $S+$ array and the single nearest (most similar in carbon chain length) element of the test stimulus array.  
+\item \texit{Nearest Neighbor}: Each stimulus was represented as in \textit{All-to-All}, but $p_r$ was a function only of the difference between each element of the $S+$ array and the single nearest (most similar in carbon chain length) element of the test stimulus array.  
 \end{itemize}
 
+In each model class above, the computation in each stimulus comparison was given by: 
+\begin{equation}
+f(S+_i) * g(S+_i,test_j)
+\end{equation}
+with each function argument the carobn chain length of an $S+$ component $i$ or a test stimulus component $j$, where:
+\begin{equation}
+f(x_i) = exp(-a*x_i)
+g(x_i,x_j) = exp(-b*|x_i-x_j|)
+\end{equation}
+
+\item Fit details
+\item Goodness of fit statistics
+\item Equations for all models
+\item References to code
