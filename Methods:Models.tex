@@ -24,12 +24,12 @@ p_r = p_{r0} * f(S+_{mean},test_{mean})
 \begin{equation}
 p_r = p_{r0} * \frac{1}{N^2}\sum_{i=1}^{N}\sum_{j=1}^{N}f(S+_i,test_j)
 \end{equation}
-\item \texit{Nearest Neighbor}: Each stimulus was represented as in \textit{All-to-All}, but $p_r$ was a function only of the difference between each element of the $S+$ array and the single nearest (most similar in carbon chain length) element of the test stimulus array, with index i'.  
+\item \texit{Nearest Neighbor}: Each stimulus was represented as in \textit{All-to-All}, but $p_r$ was a function only of the difference between each element $i$ of the $S+$ array and the single nearest (most similar in carbon chain length) element of the test stimulus array, with index $i'$.  
 \begin{equation}
 p_r = p_{r0} * \frac{1}{N}\sum_{i=1}^{N}f(S+_i,test_{i'})
 \end{equation}
 \end{itemize}
 
-\item Fit details
-\item Goodness of fit statistics
-\item References to code
+Each model was fit to the pooled data, expressed as response probabilities for each test stimulus in each experiment, using maximum likelihood estimation to obtain the parameters $a$, $b$, and $p_{r0}$, which applied universally to all experiments.  In an alternative fit, we allows $p_{r0}$ to vary according to the experiment type (although it was still fixed for all animals, strains, and stimuli within each experiment), to account for variable baseline response motivation across experiments.  Goodness-of-fit is reported as the mean-squared error between the model fit and the observed response probabilities, and is fundamentally bounded at the low end due to binomial variability.  
+
+All code and analysis is available at \url{http://github.com/quolf/nearest-neighbor}.  
