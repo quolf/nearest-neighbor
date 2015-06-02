@@ -9,7 +9,6 @@ subsubsection_Generalization_testing_label_sec__.tex
 subsubsection_Experiment_types_label_sec__.tex
 Methods:Models.tex
 Table 1. Odorants.tex
-figures/Untitled1/Untitled1.png
 Calculation_of_model_fits_needs__.tex
 Results.tex
 figures/basic_gen_plots/results.png
