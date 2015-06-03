@@ -18,4 +18,3 @@ figures/model_fits/model_fits.png
 Model fits.tex
 figures/mse/mse.png
 Discussion.tex
-To Do List.tex
