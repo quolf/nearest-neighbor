@@ -13,7 +13,6 @@ Results.tex
 subsection_Modeling_label_sec_results_modeling__.tex
 Modeling.tex
 figures/0/cartoon.png
-figures/model_fits/model_fits.png
 Model fits.tex
 figures/mse/mse.png
 Discussion.tex
