@@ -10,11 +10,11 @@ subsubsection_Experiment_types_label_sec__.tex
 Methods:Models.tex
 figures/Untitled2/Untitled2.png
 Results.tex
-figures/basic_gen_plots/results.png
+figures/basic_gen_plots/basic_gen_plot.pdf
 subsection_Modeling_label_sec_results_modeling__.tex
 Modeling.tex
 figures/0/cartoon.png
-figures/model_fits/model_fits.png
+figures/model_fits/model_fits.pdf
 Model fits.tex
 figures/mse/mse.png
 Discussion.tex
